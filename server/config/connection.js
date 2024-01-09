@@ -2,4 +2,4 @@ const mongoose = require('mongoose');
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/PicAPlace');
 
-module.exports = mongoose.conncection;
+module.exports = mongoose.connection;
